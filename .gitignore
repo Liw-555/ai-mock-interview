@@ -1,0 +1,52 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# ── Node / Frontend ──
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# ── Environment & Secrets ──
+.env
+!.env.example
+
+# ── Data & Uploads ──
+data/interview_agent.db
+data/uploads/
+data/knowledge_base/
+
+# ── Logs ──
+logs/
+*.log
+
+# ── IDE ──
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# ── OS ──
+.DS_Store
+desktop.ini
+
+# ── Test files ──
+test_resume.pdf
+test_resume.docx
+
+# ── WorkBuddy workspace ──
+.workbuddy/
